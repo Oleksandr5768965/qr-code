@@ -4,6 +4,7 @@ html , body{
 body {
     margin:0;
 }
+
 .main-container {
     width:100vw;
     height:100vh;
@@ -24,15 +25,13 @@ body {
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0 4px 30px hsl(0, 0%, 69%);
     backdrop-filter: blur(5px);
-   
-
 }
 .qr-code-img {
-    width:320px;
-    height:320px;
+    width:98%;
+    height:98%;
     border-radius:21px;
-
 }
+
 .text-container {
     display:flex;
     flex-direction: column;
@@ -44,7 +43,6 @@ body {
     font-size: 24px;
     font-weight:700;
     text-align: center;
-    
 }
 .description {
     font-family:  "Outfit", sans-serif;
@@ -58,7 +56,6 @@ body {
     font-weight: 600;
     display:flex;
     justify-content: center;
-   
 }
 .attribution a {
     text-decoration: none;
@@ -66,4 +63,6 @@ body {
 .attribution a:hover {
     text-decoration: underline;
     text-decoration-color: hsl(218, 44%, 22%);
+    color:rgb(85, 0, 255);
+    transition: color 0.4s ease-in-out;
 }
